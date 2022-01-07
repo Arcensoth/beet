@@ -993,7 +993,7 @@ test = ["check-manifest", "fastjsonschema", "testpath", "pytest", "pytest-cov"]
 
 [[package]]
 name = "nbtlib"
-version = "1.12.1"
+version = "2.0.4"
 description = "A python package to read and edit nbt data"
 category = "main"
 optional = false
@@ -1912,7 +1912,7 @@ image = ["Pillow"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "88517bf061f6bfe2183753cc5e456e58db8b19457d4884f5eaa9c383ef885dc1"
+content-hash = "86e4f69c6d37f6cc2ffc149cc45c5129e19262d8ffb54f1f3b93e84ff2bca307"
 
 [metadata.files]
 alabaster = [
@@ -2409,8 +2409,8 @@ nbformat = [
     {file = "nbformat-5.1.3.tar.gz", hash = "sha256:b516788ad70771c6250977c1374fcca6edebe6126fd2adb5a69aa5c2356fd1c8"},
 ]
 nbtlib = [
-    {file = "nbtlib-1.12.1-py3-none-any.whl", hash = "sha256:55e6811aa4e4bfe9000cbe026f1fe540ebc231c8a3f3558d7819c6c7274001c6"},
-    {file = "nbtlib-1.12.1.tar.gz", hash = "sha256:1642e34ace7131718c21354562a183757613f3554445e6fcf8effb155b6591f5"},
+    {file = "nbtlib-2.0.4-py3-none-any.whl", hash = "sha256:38d571fbf2f7ebd640639461b47fc79919a8ea8e74633ffcc8aa6b2acfc9c889"},
+    {file = "nbtlib-2.0.4.tar.gz", hash = "sha256:d4b861047fb9beb546a2e3f3b776dc61b0fb5831375752a39961882e2f76cc93"},
 ]
 nest-asyncio = [
     {file = "nest_asyncio-1.5.1-py3-none-any.whl", hash = "sha256:76d6e972265063fe92a90b9cc4fb82616e07d586b346ed9d2c89a4187acea39c"},
