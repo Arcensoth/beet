@@ -361,7 +361,7 @@ class JsonFileBase(TextFileBase[ValueType]):
     def from_str(cls, content: str) -> ValueType:
         value = json.loads(content)
         if cls.model and issubclass(cls.model, BaseModel):
-            value = cls.model(**value)
+            value = cls.model.validate(value)
         return value  # type: ignore
 
     @classmethod
@@ -402,7 +402,7 @@ class YamlFileBase(TextFileBase[ValueType]):
     def from_str(cls, content: str) -> ValueType:
         value = yaml.safe_load(content)
         if cls.model and issubclass(cls.model, BaseModel):
-            value = cls.model(**value)
+            value = cls.model.validate(value)
         return value  # type: ignore
 
     @classmethod
